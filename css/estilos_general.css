@@ -1,0 +1,6 @@
+
+@import url("estilo.css");
+@import url("tablet.css") screen and (max-width:800px);
+@import url("mobile.css") screen and (max-width:480px);
+
+

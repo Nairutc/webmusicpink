@@ -1,0 +1,436 @@
+.principal{
+    width: 480px;
+    margin: 0 auto;
+    border-left: 3px solid rgb(0, 0, 0);
+    border-right: 3px solid rgb(0, 0, 0);
+    }
+
+
+header{
+        height: 350px;
+        color:#e152df;
+        background: url(../img/logo_pink.png) no-repeat 10% 7% , url(../img/img_mobile/banner_mob.jpg);
+        margin-top:  -10px;
+        }          
+
+#menu{
+      background: url(../img/img_mobile/menu.jpg) no-repeat;
+      width: 50px; 
+      height: 50px;
+      display:inline-block;
+      font-size:0px;
+      position: absolute;
+      margin-top: -10px;
+      margin-left:100px;
+      }
+
+#form{margin-right: 0px;}
+
+nav{
+    width:170px;
+    background-color: #00000053;
+    margin-left: 310px;
+    }
+
+#nave{
+      display: none;
+      width:140px;
+      margin-top:50px;
+      margin-left:0px;
+      float: none; 
+    }
+
+#nave:target{
+	        display:block;
+	        }
+
+#cerrar{
+        display:inline-block;
+        background:url(../img/img_mobile/cerrar.png) no-repeat;
+        width: 32px;
+        height: 32px; 
+        margin-left: 50px;
+       }
+
+/*seccion 1*/
+
+#chica {
+        width: 460px;
+        background-color: rgb(0, 0, 0);}
+
+.contenedoruno{
+               height: 775px;
+               background-color: black;
+               color: white;
+               padding: 20px;
+               border:#e152df 2px;
+              }
+
+.primeracolumna, .segundacolumna{
+                                 width:410px;
+                                 display:block;
+                                 margin:25px 5px;
+                                 padding: 10px;
+                                 font-size: 18px;
+                                 border:#e152df 2px solid;
+                                 padding: 10px;
+                                 float: none;
+                                 }
+
+.primeracolumna{height: 270px;}
+.segundacolumna{height: 390px;}
+
+source{margin-left: -20%;}
+
+/*seccion 2*/
+
+.contenedordos{height: 950px;}
+
+#negra{ 
+        margin:0 25%;
+        width: 400px;
+        text-align:center;
+        }
+
+#datos{
+       width:410px;
+       height: 500px;
+       margin-right:15px;
+       margin-top: 15px;
+       font-size: 18px; 
+       border:#000000 2px solid;
+       padding: 10px;  
+       }
+
+#personales{
+            width:410px;
+            font-size: 25px;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            }
+
+/*seccion 3*/
+
+.historia{
+          width: 460px;
+          font-size: 35px;
+          }
+          
+.contenedortres, #contenedorcuatro{
+                                    background-color: #eb85b2;
+                                    height: 770px;
+                                    border: none;
+                                    padding-bottom: 10px;
+                                    margin-bottom: 5px;
+                                    margin-top: 0px;
+                                   }
+
+
+#columnatres, #columnacuatro, #joven{
+                                width:450px;
+                                height: 300px;
+                                display:block;
+                                float: none;
+                                font-size: 18px;
+                                border:none;
+                                margin: 0% auto;
+                                padding:5px;
+                                }
+.menor{
+       width:460px;
+       height:300px;
+       display: block;
+       margin-left: 3%;
+       margin-top: 60%;
+      }
+
+#video{ 
+        padding-top: 20px;
+        border:none;
+        float: none;
+        }
+
+                
+#pink, #solista{display: none;}
+
+/*seccion 4*/
+
+#fondo{
+      background-image: url(../img/img_mobile/fondo_opaco_peq.jpg);
+      height: 500px;
+      }
+
+#vida{
+       font-size: 18px;
+       width: 450px;
+       column-count: auto;
+       display:block;
+       float: none;
+       height: 500px;
+       margin: 0% auto;
+       padding:5px;
+     }
+
+#dos{
+    
+    column-count:auto;
+    width: 420px;
+    height: 610px;
+    margin: -30px auto;
+    background-color:black;
+     }  
+
+.animacion{
+          width: 460px;
+          position: relative;
+          margin-left: -25px;
+          margin-top: -5%; 
+          height: 450px;	
+          }
+
+#siguiente{
+           right: -1%;
+           top: 30%;
+           }
+
+#anterior{
+           left:-1%;
+           top: 30%;
+          }
+
+#beneficio{
+            font-size:18px ;
+            width: 460px;   
+            height: 200px;
+            float: none;
+            margin-top: -7%;
+            margin-left:-24px;
+            padding:2px;
+            border: white 2px solid;
+           }
+
+/*seccion 5*/
+
+#genero{
+        width: 460px;
+        font-size: 35px;
+        margin-top:30px;
+        padding: 10px;
+       }
+
+.rock{
+        width: 440px;
+        background-color:rgba(0, 0, 0, 0.473);
+        color: white;  
+        padding: 5px;
+        border: 2px #eb85b2 solid;
+        }
+
+#tres{
+      display:block;
+      width: 480px;
+      }
+     
+     #origen, #caracteristicas, #descripcion{
+                                             width: 400px;
+                                             column-count:auto;
+                                             font-size: 18px;
+                                             margin:5px auto;
+                                             border: 4px solid #e152df;
+                                             padding: 10px;
+                                             }
+
+footer{
+        background: url(../img/logo_pink.png) no-repeat 52% 100%;
+        background-color: black;
+        height: 450px;
+        width: 440px;
+        }  
+
+#mostrar{
+        width: 300px;
+         float: none;
+         margin-left: 70px;
+        }
+
+#redes{
+        margin-left:20px;
+        margin-bottom: 30px;
+            }
+
+     
+   /*discografia*/
+
+.display{
+         display: block;
+         width: 480px;
+        }
+   
+section > h2 {width: 480px;}
+
+
+
+h3,.canciones{
+            width: 460px;
+            font-size: 20px;
+            padding: 5px;
+            margin-left:-2%;
+            text-align: center;
+
+           }
+
+.info{
+     display: block;
+     width: 460px;
+     height: 380px;
+     float:none;
+     background-image:none;
+     background-color: #000000;
+     margin-top: 2px;
+     padding-left: 10px;
+     padding-top: 10px;
+     margin-left: 0%;
+     }
+
+ol{
+    width: 250px;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    text-align: center;   
+    }
+
+iframe{
+       margin:30px 15px 10px 0px;
+       width:400px;
+       height: 300px;
+       }
+
+.tablet{ 
+        margin: 0% auto;
+        background:none;
+        height: 800px;
+        width: 480px;
+        }
+
+.caratula{ 
+        width: 480px;
+         margin-left: 60%;
+         margin-top: -5%;
+         margin-bottom: 1%;
+}
+    
+
+.parrafo, #parrafof{
+                    width: 400px ;
+                    height: 380px;
+                    margin-top: 35%;
+                    margin-left: 3%;
+                    display: block;
+                    }
+
+#parrafof{height: 730px;}
+
+#pinkfot{
+    color: white;
+    background-image:none;
+    background-color: rgba(0, 0, 0, 0.381);
+    width: 480px;
+    margin: 0% auto;
+    height: 520px;
+    }
+
+#gal{
+     font-size: 35px;
+     padding:10px;
+     text-align: center;
+     width: 458px;
+     margin: 0% auto;
+     }
+
+#fot{
+     border:none;
+     margin: 0% auto;
+    }
+
+/*Formulario*/
+
+
+#club{width:480px;}
+
+fieldset {
+          display:block;
+          width:400px;
+          margin:0 5px;
+          height: 950px;
+        padding: 10px;
+         }
+
+#fiel{  height: 900px;}
+
+fieldset span, label, #archivo {width: 420px;}
+
+input, optgroup{
+                width:400px;
+                padding:10px;
+                margin-bottom: 10px;
+                border-radius: 20px;
+                }
+
+input[type="file"]{ 
+                    width: 400px;
+                    font-size: 15px;
+                    }
+
+#fans{
+        width: 400px;
+        font-size: 30px;
+        margin:0 auto;
+}
+
+
+input[type="submit"]{  
+                     display: block;
+                     width:200px;
+                     margin-left: 140px;
+                     margin-top: 20px;
+                    }
+
+/**gracias**/
+
+
+#grax{
+      height: 350px;
+      color:#e152df;
+      background: url(../img/logo_pink.png) no-repeat 10% 7%, url(../img/img_mobile/banner_mob.jpg);
+      margin-top:-10px;
+      } 
+
+#grande{
+        margin: 0% auto;
+        width: 480px;
+        height: 150px;
+        font-size: 36px;
+        padding-top: 30px;
+       }
+
+#mensaje{
+          width: 400px;
+          font-size: 24px;
+          margin:10% auto;
+        }
+    
+#gra{
+     margin-top: -30px;
+     margin-bottom: 3px;
+     width: 480px;
+     height: 500px;
+     background-image: none;
+     background-color: black;
+     }
+
+  
+
+
+
+

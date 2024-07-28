@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>&#x1f338; Pink | Formulario </title>
+    <link rel="stylesheet" href="css/estilos_general.css">
+</head>
+<body>
+
+    <div class="principal">
+
+        <header>
+            <h1 class="oculto">Pink</h1>
+            <nav>
+                <a href="#nave" id="menu">Menú</a>
+                    <ul id="nave">
+                    <li id="inicio"><a href="index.html" >Inicio</a></li>
+                    <li  class="discografia"><a href="discografia.html">Discografía</a>
+                        <ul class="album">
+                            <li class="blanco"><a href="discografia.html#missundaztood">Missundaztood</a></li>
+                            <li class="blanco"><a href="discografia.html#funhouse">Funhouse</a></li>
+                            <li class="blanco"><a href="discografia.html#trauma">Beautiful trauma</a></li>
+                            <li class="blanco"><a href="discografia.html#trustfall">Trustfall</a></li>
+                        </ul>
+                    </li>
+                    <li id="form"><a class="act" href="formulario.html" >Formulario</a></li>
+                    <li><a href="#"><span id="cerrar">Cerrar</span></a></li>
+                </ul>
+            </nav>
+        </header>
+    
+            <main>
+
+            <section>
+                <h2 id="club"> Club de fans </h2>
+                <p id="fans">¡Exprésate y únete a la comunidad de fans de Pink!</p>
+
+                <p class="rock">  Estamos emocionados de invitarte a compartir tus experiencias, tus gustos musicales y tu amor por Pink a través de nuestro exclusivo formulario de registro, para que puedas estar al tanto de las ultimas noticias y eventos relacionados con tu artista favorita. No pierdas esta oportunidad de formar parte de algo realemente especial.</p>
+         
+
+                <form action="gracias.html" enctype="multipart/form-data" method="post"> 
+
+                    <fieldset>
+                        <legend><h3>Datos Personales</h3></legend>
+                        <span>Nombre</span>
+                        <input type="text" name="nombre" >
+
+                        <span>Apellido</span>
+                        <input type="text" name="apellido">
+
+                        <span>Género</span>
+                        <label>Masculino
+                        <input name="genero" type="radio" value="hombre" >
+                        </label>
+
+                        <label> Femenino
+                        <input name="genero" type="radio" value="mujer" >
+                        </label>
+
+                        <label>N/Binario
+                        <input name="genero" type="radio" value="nobinario" >
+                        </label>
+
+                        <div id="fecha">
+                        <span>Fecha de tu próximo cumpleaños</span>
+                        <input type="date" name="fecha">
+
+                        <span>Edad</span>
+                        <input type="number" name="edad" min="15" max="90">
+
+                        <span>Email</span>
+                        <input type="email" name="email" required placeholder= "email@gmail.com">
+                        </div>
+                    </fieldset>
+
+                
+                    <fieldset id="fiel"> 
+                    <legend><h3>Intereses</h3></legend>
+                    <span>Album favorito de Pink (presione Ctrl para elegir varias opciones).</span>
+                    <select name="album[]" multiple size="9">
+
+                    <optgroup label="Clásicos">
+                    <option selected value="Can't Take Me Home">Can't Take Me Home</option>
+                    <option value="M!ssundaztood">M!ssundaztood</option>
+                    <option value="I'm Not Dead">I'm Not Dead</option>
+                    <option value="Funhouse">Funhouse</option>
+                    <option value="The Truth About Love">The Truth About Love</option>
+                    </optgroup>
+
+                    <optgroup label="Nuevos Éxitos">
+                    <option selected value="Beautiful Trauma">Beautiful Trauma</option>
+                    <option value="Hurts 2B Human">Hurts 2B Human</option>
+                    <option value="All I Know So Far: Setlist">RAll I Know So Far: Setlist</option>
+                    <option value="Trustfall">Trustfall</option>
+                    </optgroup>
+                    </select>
+
+
+                    <span>Elige el país de preferencia para el próximo concierto de Pink.</span>
+                    <select name="País">
+                        <option value="" selected disabled>Paises</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="chocolate">Chile</option>
+                        <option value="chocolate">Venezuela</option>
+                        <option value="chocolate">Estados Unidos</option>
+                    </select>
+
+                    <span>Elige tres opciones para indicar que tipo de notificación deseas recibir en tu bandeja de entrada.(presione Ctrl si desea elegir varias opciones).</span>
+                    <select name="Informacion[]" multiple size="6">
+                        <optgroup label="Notificacion">
+                        <option selected value="Noticias">Noticias</option>
+                        <option value="Eventos">Eventos</option>
+                        <option value="Entrevistas">Entrevistas</option>
+                        <option value="Videos musicales">Videos musicales</option>
+                        <option value="Nuevos lanzamientos">Nuevos lanzamientos</option>
+                        </optgroup>
+                    </select>
+
+                    <p id="archivo">Inserta una foto donde reflejes tu conexión con Pink, ya sea, una foto tuya asistiendo a un concierto, foto de entradas a sus eventos, usando algun producto que la identifique, autógrafos, etc. </p>
+
+                    <input type="file" name="imagen"> 
+
+                    </fieldset>
+
+                    <input type="submit" name="Enviar" value="ENVIAR">
+                    
+                </form>
+            </section>   
+
+            </main>
+        <footer>
+    
+                <div id="redes">
+                    <h2 class="oculto">Redes sociales</h2>
+                
+                    <ul>
+                        <li id="face"><a href="https://www.facebook.com/pink?locale=es_LA" target="_blank">Facebook</a></li>
+                        <li id="inst"><a href="https://www.instagram.com/pink?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a></li>
+                        <li id="you"><a href="https://www.youtube.com/channel/UCE5yTn9ljzSnC_oMp9Jnckg" target="_blank">Spotify</a></li>
+                    </ul>
+                </div>  
+               
+                <div id="mostrar">
+    
+                    <h2>Créditos</h2>
+                    <div>
+                    <ul>
+                        <li class="vineta">Alumnas:
+                            <ul>
+                            <li>Nairut Contreras</li>
+                            <li>Angela Rodríguez</li>
+                            </ul>
+                        </li>
+                        <li class="vineta">Docente: Mabel García</li>
+                        <li class="vineta">Maquetado y desarrollo web</li>
+                        <li class="vineta">Trabajo práctico II</li>
+                        <li class="vineta">Escuela Da Vinci</li>
+                        <li class="vineta">Primer cuatrimestre</li>
+                        <li class="vineta">2024</li>
+                    </ul>
+                    </div>
+    
+                </div>
+        </footer>
+    </div>
+    
+</body>
+</html>

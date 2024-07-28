@@ -1,0 +1,362 @@
+.principal{width: 800px;}
+
+header{
+        height: 512px;
+        background: url(../img/logo_pink.png) no-repeat 50% 1% , url(../img/img_mobile/banner_tab.jpg);
+        margin-top:  -20px;
+        } 
+
+nav {
+     padding-top: 10%;
+     margin-left: 180px;
+    }
+
+#form{margin-right: 170px;}
+
+/* section 1 */
+
+#chica{
+        width: 790px;
+       }
+
+.primeracolumna, .segundacolumna{ 
+                                 font-size: 18px;
+                                 width:360px;
+                                 padding: 10px;
+                                 margin-left: 2px;
+                                 margin-right: 2px;
+                                 height: 430px;
+                                 }
+
+.contenedoruno{
+                height: 550px;
+                padding: 10px;         
+                }
+
+/*section 2*/
+
+.contenedordos{
+                height: 600px;
+                background: url(../img/fondouno.jpg) no-repeat;
+                padding: 10px;
+                }
+
+#negra{ 
+        margin-top: 40px;
+        width: 360px;
+        text-align:left;}
+
+#datos{
+       margin-top: -15px;
+       width: 380px;
+       margin-left: 20px;
+      }
+
+/*seccion 3*/
+
+.historia{
+          width: 780px;
+          font-size: 35px;
+          }
+
+.contenedortres, #contenedorcuatro{
+                                    background-color: #eb85b2;
+                                    border: none;
+                                    padding-bottom: 10px;
+                                    margin-bottom: 5px;
+                                    margin-top: 0px;
+                                    }
+.contenedortres{height: 500px;}
+
+#contenedorcuatro{height: 950px;}
+
+#pink{
+       padding: 3px 0px;
+       margin-bottom: -100px;
+       margin-top: 30px;
+       }
+
+
+#columnatres, #columnacuatro, #joven{  
+                                        width:350px;
+                                        height: 300px;
+                                        font-size: 18px;
+                                        border:none;
+                                        margin: 0% auto;
+                                        padding:0px 15px;
+                                        }
+
+#solista{
+        width:350px;
+        height: 550px;
+        font-size: 18px;
+        border:none;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-left: 2px solid #000000;
+        padding-top: 60px;
+        }
+
+.menor{
+        width:600px;
+        height:300px;
+        border: none;
+        display: block;
+        margin-left: -3%;
+        margin-top: 20%;
+        border: none;
+       }
+             
+      
+#video{ border:none;}
+                                            
+ /*seccion 4*/
+
+ #vida{
+  
+    width: 700px;
+    column-count: 2;
+    column-gap: 20px;
+    display:block;
+    float: none;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+     }
+
+  #fondo{
+    background-image:none;
+    height: 450px;
+    margin-bottom: 10px;
+    margin-top: -30px;
+    padding:10px;
+    }
+
+.animacion{
+            width: 400px;
+            height: 600px;
+            position: relative;
+            margin-left: -15px; 
+            margin-top: 30px;	
+            }
+
+#siguiente{
+            width: 60px;
+            right: -5%;
+            top: 30%;
+            }     
+    
+#anterior{  
+            width: 60px;
+            left: -5%;
+            top: 30%;
+            }   
+
+#dos{
+    width: 740px;
+    padding-top: 60px;
+   }   
+   
+#beneficio{
+        
+            width: 250px; 
+            height: 440px ; 
+            margin-left: 50px;
+            padding: 30px 10px;
+            margin-top: -42%;
+            }
+
+    
+/*seccion 5*/
+
+#genero{
+    width: 780px;
+    font-size: 35px;
+    margin-top:15px;
+    padding: 10px;
+   }
+
+.rock{
+    width: 750px; 
+    padding: 10px;
+    border: 2px #eb85b2 solid;
+    }
+
+#tres{width: 800px;}
+ 
+ #origen, #caracteristicas, #descripcion{
+                                         width:240px;
+                                         margin:10px;
+                                         font-size: 18px;
+                                         padding: 10px;
+                                         }
+
+footer{
+        padding: 20px;
+        color: #e152df;
+        background: url(../img/logo_pink.png)  no-repeat 19% 90%;
+        background-color: black;
+        height: 250px;
+        width: 760px;
+        margin: 0 auto;    
+        }    
+
+#redes{margin-left: -50px;}
+#mostrar{margin-right: -40px;}
+
+/*discografia*/
+
+section > h2 {
+             margin-top: 2px;
+             width: 800px;
+             }
+
+.info{
+     width: 350px;
+     height: 400px;
+     float: none;
+     margin-top: -30%;
+     margin-left:50%;
+     background-image:none;
+     background-color: #000000;
+     padding:10px;
+     margin-bottom: -11%;
+     }
+
+ol,.canciones{
+              margin-left: 2%;
+              margin-top: 40px;
+              text-align: left;
+              }
+
+ol{ margin-top: 2px;}
+
+.caratula{margin-top:5px;}
+
+iframe{
+        width:300px;
+        height: 300px;
+        margin-left: -145%;
+        margin-top: -45%;
+        }
+
+.tablet{ 
+        margin-top: -25px;
+        padding-top: 5px;
+        width: 800px;
+        background: #eb85b2;
+        height: 600px;
+        margin-bottom:2%;
+        }
+
+
+.parrafo {
+            width: 750px ;
+            height: 250px;
+            margin-left:2px;
+            margin-bottom: 2%;
+
+            }
+
+#parrafof{
+          width: 750px;
+          height: 430px;
+          margin-left:2px;
+          margin-top: -5px;
+          } 
+
+#pinkfot{ 
+            background-image:none;
+            background-color: #00000062;
+            width: 800px;
+            height: 580px;
+            }   
+
+#gal{
+    margin-top: -10px;
+    width: 800px;
+    }           
+                
+#fot{
+     margin-left: 20%;
+    }
+
+/*Formulario*/
+
+#club{
+     width:800px;
+     font-size: 35px;
+   }
+
+#fans{
+      width: 760px;
+      font-size: 40px;
+      margin-left: 10px;
+      }
+
+fieldset {  
+            width:650px;
+            display:block;
+            margin:0 auto;
+            padding: 10px;
+            height: 950px;
+           }
+
+#fiel{  height: 820px;}
+
+fieldset span, label, #archivo {width: 600px;}
+
+input, optgroup{
+              width:500px;
+              padding:10px;
+              margin-bottom: 10px;
+              border-radius: 20px;
+              }
+
+input[type="file"]{ 
+                  width: 500px;
+                  font-size: 15px;
+                  
+                  }
+
+
+input[type="submit"]{  
+                   display: block;
+                   width:300px;
+                   margin: 4% auto;
+                   }
+
+/*gracias*/
+
+#grax{
+      height: 500px;
+      color:#e152df;
+      background: url(../img/logo_pink.png) no-repeat 50% 5%, url(../img/img_mobile/banner_tab.jpg);
+     }
+
+ #gra{
+    width:800px ;
+    margin-top: -30px;
+    margin-bottom: 3px;
+    height: 400px;
+    background-image: none;
+    background-color: black;
+    }
+
+#grande{
+        margin: 0% auto;
+        width: 700px;
+        height: 150px;
+        font-size: 40px;
+        padding-top: 20px;
+       }
+
+#mensaje{
+          width: 700px;
+          font-size: 28px;
+          margin:0% auto;
+        }
+
+
+
